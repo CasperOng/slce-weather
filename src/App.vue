@@ -8,17 +8,10 @@
       </div>
     </transition>
     <WeatherAnimate />
-    <div class="footer-text">
-      <a href="https://github.com/xzendercage/weatherapp" target="_blank" class="link">
-        <GithubIcon size="1x"></GithubIcon>
-        <span>Github Repository</span>
-      </a>
-    </div>
   </div>
 </template>
 
 <script>
-import { GithubIcon } from "vue-feather-icons";
 import WeatherSearch from "@/components/WeatherSearch";
 import WeatherMain from "@/components/WeatherMain";
 import WeatherInfo from "@/components/WeatherInfo";
@@ -31,7 +24,6 @@ export default {
     WeatherMain,
     WeatherInfo,
     WeatherAnimate,
-    GithubIcon
   },
   computed: {
     ...mapGetters(["isSearched"])
