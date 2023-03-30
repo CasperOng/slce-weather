@@ -7,8 +7,8 @@ Vue.use(Vuex);
 const store = new Vuex.Store({
   state: {
     apiBase: "https://api.openweathermap.org/data/2.5/",
-    apiKey: "d405c9a8a3809515a425e7a502ebae39",
-    defaultSearch: "HK",
+    apiKey: "7078f2a38951d1ee915d8bb20c11945b",   // Create Api Key from https://openweathermap.org
+    defaultSearch: "Chandigarh",
     search: "",
     isError: false,
     weatherData: {},
